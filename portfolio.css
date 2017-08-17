@@ -1,0 +1,297 @@
+/*navbar*/
+.my-navbar{
+  background-color: black !important;
+  opacity:0.6;
+  height: 60px;
+  font-size: 20px;
+  font-style: normal;
+  font-family:serif;
+}
+
+/*navbar link icon*/
+.active{
+  background-color: transparent;
+  color:black;
+}
+
+/*navbar link icon hover*/
+.my-hover a:hover {
+  background-color: transparent !important;
+  color:#909497 !important;
+}
+
+/*who am i??*/
+.heading1{
+  font-family: courier,sans-serif;
+  letter-spacing: -15px;
+  font-size: 85px;
+  color: black;
+}
+
+/**/
+.collegename{
+  font-size: 30px;
+  padding-left: 200px;
+}
+
+/*contack button*/
+.btn{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 0px;
+    background-color:black;
+    opacity:0.5;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 25px;
+    color:white;
+    margin-top:30px;
+    margin-left: -5px;
+}
+
+/*sites icon*/
+.icons{
+    letter-spacing: 25px;
+    font-size: 32px;
+    margin-top: 230px;
+    padding-left: 55px;
+}
+
+/* contact icon*/
+.icon{
+  color: black;
+}
+
+/*contact icon hover*/
+button :hover, a:hover {
+  color: black !important;
+    opacity: 0.5;
+}
+
+/*heading*/
+h1{
+  font-size: 40px;
+  padding-left:65px;
+  font-family:cursive;
+}
+
+/*my bio*/
+.my_bio{
+    font-size:25px;
+    margin-top: 50px;
+    font-style:italic;
+    font-family:monospace;
+}
+
+/*my field*/
+.title{
+  font-size:25px;
+  padding-left: 52px;
+  font-family:monospace;
+}
+
+/*clg detail*/
+.detail{
+  width: 100%;
+  margin-left: 0px;
+}
+
+/*profile card*/
+.cardcontainer{
+    position: relative;
+    width:60%;
+    margin:2px 250px;
+}
+
+/*profile pic*/
+.mypic{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height:530px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/*middle part of profile card*/
+.middle {
+  transition: .5s ease;
+  opacity:0;
+  position: absolute;
+  top: 425px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+/*profile card*/
+.cardcontainer:hover .middle {
+  opacity: 1;
+}
+
+/*content of profile card*/
+.text {
+  background-color:none;
+  width:550px;
+  height: 450px;
+  color: ligtgrey;
+  font-size: 16px;
+  padding: 5px 32px;
+}
+
+/*skills*/
+.heading2{
+  font-family:courier,sans-serif;
+  letter-spacing: -15px;
+  font-size: 85px;
+  color: black;
+  padding-top:800px;
+  margin-left: 370px;
+  margin-bottom: 50px;
+}
+
+/*html thumbnail*/
+.htmlpic{
+    padding-left:205px;
+}
+
+/*html detail*/
+.abouthtml{
+  padding-left:90px;
+}
+
+/*css thumbnail*/
+.csspic{
+  padding-left: 530px;
+}
+
+/*css detail*/
+.aboutcss{
+  padding-left: 280px;
+}
+
+/*bootstrap thumbnail*/
+.bootstrapic{
+    padding-left:205px;
+    margin-top: 50px;
+}
+
+/*bootstrap detail*/
+.aboutbootstrap{
+  padding-left:100px;
+}
+
+/*js thumbnail*/
+.jspic{
+  padding-left: 530px;
+  margin-top: 50px;
+}
+
+/*js detail*/
+.aboutjs{
+  padding-left: 300px;
+}
+
+/*get in touch*/
+.heading3{
+  font-family: courier,sans-serif;
+  letter-spacing: -15px;
+  font-size: 85px;
+  color: black;
+  margin-top: 450px;
+}
+
+/*google map*/
+.map{
+  height: 400px;
+  background-color: grey;
+  margin-right: 0px;
+}
+
+/*footer*/
+.footer{
+  margin-top: 10px;
+}
+
+/*parallax at footer*/
+.parallax {
+    background-image: url("fimage.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*footer headig*/
+.footerhead{
+  padding-top:20px;
+  color: black;
+  font-weight: bolder;
+  font-size:35;
+  font-family: times;
+}
+
+/*clg location*/
+.location{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*clg address*/
+.p_location{
+  color: black;
+  font-size:15px;
+  text-align: center;
+}
+
+/*call or mail*/
+.touch{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 450px;
+}
+
+/*mail id and no.*/
+.p_touch{
+  color: black;
+  font-size:15px;
+  padding-left:450px;
+  text-align: center;
+}
+
+/*follow me*/
+.follow{
+  color: black;
+  padding-top: 200px;
+  font-size: 32px;
+  font-family: fantasy;
+  font-weight: lighter;
+}
+
+/*sites link icon*/
+.cicons{
+    color: black;
+    letter-spacing: 25px;
+    font-size: 32px;
+    margin-top: 50px;
+    padding-left: 470px;
+}
+
+/*website right*/
+.right{
+  padding-top: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+/*website copyright*/
+.copyright{
+color: black;
+font-weight: bold;
+}
