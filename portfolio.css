@@ -217,7 +217,7 @@ h1{
 
 /*parallax at footer*/
 .parallax {
-    background-image: url("fimage.jpg");
+    background-image: url("images/fimage.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
