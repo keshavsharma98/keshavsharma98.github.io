@@ -79,9 +79,9 @@ h1{
 }
 
 .cardcontainer{
-    display:block;
+    position:relative;
     width:60%;
-    margin:auto;
+    margin:10px 250px;
 }
 
 .mypic{
