@@ -91,6 +91,7 @@ h1{
   height:530px;
   transition: .5s ease;
   backface-visibility: hidden;
+  align: center;
 }
 
 .middle {
